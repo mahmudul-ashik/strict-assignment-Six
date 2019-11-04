@@ -1,0 +1,344 @@
+header{
+    padding-top: 30px;
+    padding-bottom: 32px;
+    background: #f6f9f9;
+}
+.logo{
+    max-width: 20%;
+    flex-basis: 20%;
+}
+.logo a{
+    display: block;
+}
+.logo a img{
+
+}
+nav{
+    max-width: 80%;
+    flex-basis: 80%;
+}
+nav ul{
+    justify-content: flex-end;
+}
+nav ul li{}
+
+nav ul li a{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+    padding-left: 19px;
+    color: #2d3950;
+}
+/*------------------Banner Area-------------*/
+.banner-area{
+    background: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.banner-area .row {
+
+min-height: 95vh;
+
+justify-content: center;
+
+align-items: center;
+}
+.banner-content{
+    max-width: 50%;
+    flex-basis: 50%;
+    text-align: center;
+}
+.banner-content h1{
+    font-size: 120px;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.banner-content span{
+    background: #15a4fa;
+    height: 2px;
+    width: 100%;
+    display: block;
+}
+.banner-content p{
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 12px;
+    margin-bottom: 30px;
+}
+.banner-content button{
+    height: 40px;
+    font-size: 18px;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid #15a4fa;
+    border-radius: 3px;
+    color: #fff;
+}
+.below{position: absolute;bottom: 3em;left: 50%;transform: translateX(-50%);}
+.below a{
+    font-size: 30px;
+    color: white;
+    font-weight: 100;
+}
+.down{}
+.below i{}
+/*------------------Banner Area-------------*/
+.paragraph{
+    background-color: #f6f9f9;
+    padding-top: 31px;
+    padding-bottom: 50px;
+}
+.paragraph h2{
+    text-align: center;
+    font-size: 40px;
+    color: #2d3950;
+    margin-bottom: 20px;
+}
+.paragraph p{
+    text-align: center;
+    width: 98%;
+    font-size: 20px;
+    color: #999999;
+    margin-bottom: 7px;
+}
+.collums{
+    background-color: #ffffff;
+}
+.box{
+    max-width: 33.33%;
+    flex-basis: 33.33%;
+    padding: 33px 15px;
+    text-align: center;
+}
+.box-icon{
+    height: 100px;
+    width: 100px;
+    background: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#48baff+50,5fc3ff+50 */
+background: rgb(72,186,255); /* Old browsers */
+    background: -moz-linear-gradient(left,  rgba(72,186,255,1) 50%, rgba(95,195,255,1) 50%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(72,186,255,1) 50%,rgba(95,195,255,1) 50%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(72,186,255,1) 50%,rgba(95,195,255,1) 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48baff', endColorstr='#5fc3ff',GradientType=1 ); /* IE6-9 */
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 100px;
+    align-items: center;
+}
+.box-icon i{
+    font-size: 55px;
+    line-height: 2;
+    color: #fff;
+}
+.box-content{
+    text-align: center;
+}
+.box-content h3 {
+    font-size: 22px;
+    color: #2d3950;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.box-content p{
+    color: #999999;
+}
+
+.showcase-section {
+    background: #F6F9F9;
+    padding: 50px 0 70px 0;
+}
+
+.heading {
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 30px;
+}
+
+.heading  h2 {
+    font-size: 40px;
+    color: #2d3950;
+    padding: 15px;
+}
+
+.heading  p {
+    font-size: 15px;
+}
+
+.showcase {
+    padding: 10px;
+    max-width: 33.33%;
+    flex-basis: 33.33%;
+}
+
+.showcase-detail {
+    position: relative;
+}
+
+.showcase-detail  .overlay {
+    width: 100%;
+    height: 0;
+    background: #15a4faba;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: all 0.4s;
+}
+.showcase-detail:hover  .overlay{
+	  opacity: 1;
+	  height: 100%
+}
+.showcase-detail .plus {
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    width: 32px;
+    height: 32px;
+    color: #fff;
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 3px;
+    line-height: 32px;
+    display: block;
+    transform: translate(-40%, -50%);
+        opacity: 0;
+    transition: all 0.6s;
+}
+.showcase-detail:hover .plus{
+	 opacity: 1;
+	 top: 50%;
+}
+.showcase-detail:hover .link{
+	 opacity: 1;
+	  top: 50%;
+}
+.showcase-detail .link {
+
+    position: absolute;
+    top: 80%;
+    left: 53%;
+    width: 32px;
+    height: 32px;
+    color: #fff;
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 3px;
+    line-height: 32px;
+    display: block;
+    transform: translate(-53%, -50%);
+        opacity: 0;
+    transition: all 0.6s;
+}
+.contact-section .row{
+    justify-content: center;
+}
+.contact-section{
+    background-image: url(../images/contact.png);
+    background-color: #2b364b;
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
+.contact-section .heading h2
+{
+color: #fff;
+}
+.contact-form{
+	max-width: 60%;
+	flex-basis: 60%;
+}
+.contact-form input,textarea{
+	 width: 100%;
+    padding: 15px;
+    border: 1px solid #999;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background: transparent;
+    color: #999;
+    border-radius: 5px;
+}
+
+.contact-form  form  ul  li {
+    max-width: 50%;
+    flex-basis: 50%;
+}
+
+.contact-form form ul li input[type="checkbox"] {
+    width: auto;
+}
+
+.contact-form  form ul li label {
+    font-size: 15px;
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+.contact-form form ul li input[type="submit"] {
+    float: right;
+    width: auto;
+    padding: 12px 50px;
+    font-size: 15px;
+    color: #fff;
+    background: transparent;
+    border: 1px solid #15a4fa85;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+
+.contact_form form ul li input[type="submit"]:hover {
+    background: #15a4fa85;
+}
+
+
+footer {
+    background: #F6F9F9;
+    padding: 20px 0;
+}
+
+.copyright {
+    max-width: 40%;
+    flex-basis: 40%;
+}
+
+.copyright  p {
+    color: #999;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.social {
+    max-width: 60%;
+    flex-basis: 60%;
+  
+}
+.social .row{
+	  justify-content: flex-end;
+}
+.social li a{
+    color: #fff;
+    font-size: 16px;
+    display: block;
+    padding: 7px;
+    margin-left: 10px;
+    width: 32px;
+    height: 33px;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 3px;
+  
+}
+
+.back {
+    background: #3B5998;
+}
+
+.back:hover {
+    background: #3B599899;
+}
+
+
